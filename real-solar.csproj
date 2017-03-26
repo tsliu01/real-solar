@@ -96,6 +96,7 @@
     <Compile Include="Assets\Scripts\Select.cs" />
     <Compile Include="Assets\Scripts\SelfRotate.cs" />
     <Compile Include="Assets\Scripts\UICtrl.cs" />
+    <Compile Include="Assets\Scripts\gyroscope.cs" />
     <Compile Include="Assets\Scripts\set.cs" />
     <Compile Include="Assets\Test.cs" />
   </ItemGroup>
