@@ -174,7 +174,7 @@ public class PlanetSet : MonoBehaviour
 
 		//planet.layer = 9;
 
-		AddRigidBody (ref planet, Scales.massScale * par [7]);
+		//AddRigidBody (ref planet, Scales.massScale * par [7]);
 
 		//planet.transform.FindChild ("Planet").name = meshChildPrefix + name;
 		//planet.transform.FindChild ("BB").name = "BB" + name;
@@ -184,7 +184,7 @@ public class PlanetSet : MonoBehaviour
 		planet.GetComponent<PlanetaryOrbit> ().Par = par;
 		//planet.transform.parent = transform;
 
-		AddSphereCollider (ref planet, Scales.gravityColliderMult * Scales.massScale * par [7]);
+		//AddSphereCollider (ref planet, Scales.gravityColliderMult * Scales.massScale * par [7]);
 	}
 
     void SetMoon(string name, string parentName, float[] par)

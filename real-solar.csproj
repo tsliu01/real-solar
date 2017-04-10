@@ -75,31 +75,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AddTense.cs" />
-    <Compile Include="Assets\Scripts\Atmo.cs" />
-    <Compile Include="Assets\Scripts\BeingAttracted.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\EarthMovments.cs" />
-    <Compile Include="Assets\Scripts\FocusOn.cs" />
-    <Compile Include="Assets\Scripts\FocusOnWithMouse.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Magnetic.cs" />
-    <Compile Include="Assets\Scripts\MoonMove.cs" />
-    <Compile Include="Assets\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\MoveController.cs" />
-    <Compile Include="Assets\Scripts\MoveControllerWithMouse.cs" />
+    <Compile Include="Assets\Button.cs" />
+    <Compile Include="Assets\CursorActivity.cs" />
+    <Compile Include="Assets\FollowTarget.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\FocusOn.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\FocusOnWithMouse.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\MoveController.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\MoveControllerWithMouse.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\Select.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\UICtrl.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\gyroscope.cs" />
+    <Compile Include="Assets\Scripts\Controllerr\set.cs" />
+    <Compile Include="Assets\Scripts\Physics\AddTense.cs" />
+    <Compile Include="Assets\Scripts\Physics\BeingAttracted.cs" />
+    <Compile Include="Assets\Scripts\Physics\Magnetic.cs" />
+    <Compile Include="Assets\Scripts\Planet\Atmo.cs" />
+    <Compile Include="Assets\Scripts\Planet\EarthMovments.cs" />
+    <Compile Include="Assets\Scripts\Planet\MoonMove.cs" />
     <Compile Include="Assets\Scripts\Planet\OrbitRenderer.cs" />
     <Compile Include="Assets\Scripts\Planet\Planet.cs" />
     <Compile Include="Assets\Scripts\Planet\PlanetInfo.cs" />
     <Compile Include="Assets\Scripts\Planet\PlanetSet.cs" />
     <Compile Include="Assets\Scripts\Planet\PlanetaryOrbit.cs" />
-    <Compile Include="Assets\Scripts\Scales.cs" />
-    <Compile Include="Assets\Scripts\Select.cs" />
-    <Compile Include="Assets\Scripts\SelfRotate.cs" />
-    <Compile Include="Assets\Scripts\UICtrl.cs" />
-    <Compile Include="Assets\Scripts\gyroscope.cs" />
-    <Compile Include="Assets\Scripts\set.cs" />
-    <Compile Include="Assets\Test.cs" />
+    <Compile Include="Assets\Scripts\Planet\Scales.cs" />
+    <Compile Include="Assets\Scripts\Planet\SelfRotate.cs" />
+    <Compile Include="Assets\SquareState.cs" />
+    <Compile Include="Assets\StatusBar.cs" />
+    <Compile Include="Assets\StatusIcon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
