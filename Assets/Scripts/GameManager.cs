@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour {
     void message(string str)
     {
         stringToEdit = str;
-        GameObject.Find("Camera").GetComponent<FocusOn>().receiveCommand();
+        GameObject.Find("Main Camera").GetComponent<FocusOn>().receiveCommand();
         Debug.Log("Copy message0:" + stringToEdit);
 
         if (str.Contains("离开"))

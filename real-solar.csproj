@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\AddTense.cs" />
     <Compile Include="Assets\Scripts\Atmo.cs" />
     <Compile Include="Assets\Scripts\BeingAttracted.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\EarthMovments.cs" />
     <Compile Include="Assets\Scripts\FocusOn.cs" />
     <Compile Include="Assets\Scripts\FocusOnWithMouse.cs" />
@@ -102,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest0.xml" />
     <None Include="Assets\Plugins\Android\res\values-w820dp-v13\values-w820dp-v13.xml" />
     <None Include="Assets\Plugins\Android\res\values\values.xml" />
     <None Include="Assets\Shaders\AE_GroupBloom.shader" />
